@@ -1,0 +1,11 @@
+a =[0]*10
+m = [0]*10
+tam=len(a)
+for x in range(tam):
+    a[x] = float(input("Digite um número: "))
+mult = float(input("Digite mais um número: "))
+for z in range(tam):
+    m[z] = a[z] * mult
+print(a)
+print(x)
+print(m)
