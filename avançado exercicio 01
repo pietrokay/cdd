@@ -1,0 +1,6 @@
+arrayNomes=["","","","",""]
+for i in range(5):
+    arrayNomes[i]= input("Digite o nome dos 5 alunos: ")
+tamanho=len(arrayNomes)
+for i in arrayNomes:
+    print(arrayNomes)
