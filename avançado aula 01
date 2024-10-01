@@ -1,0 +1,4 @@
+arrayCompras= ['banana', 'laranja','maçã']
+tamanho=len(arrayCompras)
+for i in arrayCompras:
+    print(arrayCompras)
