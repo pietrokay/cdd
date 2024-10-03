@@ -1,0 +1,8 @@
+n=[0]*5
+s=[0]*5
+tam=len(n)
+for i in range(tam):
+    n[i]= input("Digite o nome de usuário: ")
+    s[i]=input("Digite sua senha: ")
+for x in range(tam):
+    print(f"O usuário {n[x]} tem a senha {s[x]} e sua posição é {x}.")
